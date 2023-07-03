@@ -23,9 +23,9 @@ const AboutSection = () => {
                         <p className="section-desc">
                             With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.
                         </p>
-                        <Link to={'/about'}>
-                            <button className="my-btn mt-5">About Me</button>
-                        </Link>
+                        <a href='#portfolioSection'>
+                            <button className="my-btn mt-5">My works</button>
+                        </a>
                     </div>
                 </div>
             </div>

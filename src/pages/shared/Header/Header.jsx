@@ -50,7 +50,7 @@ const Header = () => {
                             </ActiveLink>
                         </li>
                         <li>
-                            <ActiveLink className="list-item" href={'/contact'}>
+                            <ActiveLink className="list-item" href={'/#contactSection'}>
                                 Contact
                             </ActiveLink>
                         </li>
@@ -84,7 +84,7 @@ const Header = () => {
                             </ActiveLink>
                         </li>
                         <li onClick={closeRightDrawer} className="header-li py-2 px-5 inline-block hover:bg-white hover:text-black">
-                            <ActiveLink className="list-item" href={'/contact'}>
+                            <ActiveLink className="list-item" href={'/#contactSection'}>
                                 Contact
                             </ActiveLink>
                         </li>
